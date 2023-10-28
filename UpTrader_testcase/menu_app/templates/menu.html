@@ -1,0 +1,7 @@
+{% load menu_tags %}
+
+<nav>
+    {% autoescape off %}
+    {% draw_menu menu.name %}
+    {% endautoescape %}
+</nav>
